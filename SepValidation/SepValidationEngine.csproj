@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageId>SEP.ValidationEngine</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Thom Root &lt;tlroot@sep.com&gt;</Authors>
+    <Description>Micro framework for validating dynamic C#</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/sep/SEPValidationEngine</PackageProjectUrl>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) SEP. All rights reserved.</Copyright>
+    <PackageTags>C# validation microframework</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Software Engineering Professionals</Company>
+    <RepositoryUrl>git://github.com/sep/SEPValidationEngine.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.17" />
+  </ItemGroup>
+
+</Project>
