@@ -46,6 +46,7 @@ To validate a collection, break down the problem into
  1. the validation of the collection as a whole and
  2. the validation of each item in the collection
 
+It's best practice to isolate each of these in their own method:
 
     public ValidationStatus ValidateList(dynamic data)
     {
